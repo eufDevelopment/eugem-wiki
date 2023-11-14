@@ -19,7 +19,8 @@ module.exports = {
     contactEmail: process.env.contactEmail,
     contactUrl1: process.env.contactUrl1,
     contactUrl2: process.env.contactUrl2,
-    homeId: process.env.confluenceHomepageId
+    homeId: process.env.confluenceHomepageId,
+    siteUrl: `http://eugem.ultimatefederation.eu`
   },
   plugins: [
     "gatsby-plugin-image", 
