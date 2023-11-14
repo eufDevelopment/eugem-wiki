@@ -604,9 +604,15 @@ pre tt:after {
   clear: both;
   padding-top:20px;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
   html {
     font-size: 100%;
+  }
+  .image-left,
+  .image-right {
+    float: none;
+    display: block;
+    margin: 5px auto 0;
   }
 }
 span.icon.aui-icon.content-type-page {
