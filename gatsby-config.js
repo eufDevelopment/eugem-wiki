@@ -67,6 +67,7 @@ module.exports = {
           include: /svg/
         }
       }
-    }
+    },
+    "gatsby-plugin-netlify"
 ]
 };
